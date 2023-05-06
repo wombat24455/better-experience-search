@@ -8,7 +8,7 @@ import { All } from './fragments/all'
 
 import { Router } from "preact-router"
 
-import './css/app.css'
+import './app.css'
 
 
 export function App() {
