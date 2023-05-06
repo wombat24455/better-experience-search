@@ -49,7 +49,7 @@ button {
 }
 button:hover {
   border-color: #646cff;
-  filter: drop-shadow(0 0 2em #646cffaa);
+  
 }
 button:focus,
 button:focus-visible {
