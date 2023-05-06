@@ -14,20 +14,20 @@ export function Footer() {
 }
 
 function FooterContent() {
-    const { isLoading, error, data } = useQuery('userData', () =>
-      fetch(`https://api.github.com/repos/wombat24455/MikebotDiscordBot/commits`).then(res => /* Replace MikebotDiscordBot with better-experience-search */
-        res.json()
-      )
+  const { isLoading, error, data } = useQuery('userData', () =>
+    fetch(`https://api.github.com/repos/wombat24455/MikebotDiscordBot/commits`).then(res => /* Replace MikebotDiscordBot with better-experience-search */
+      res.json()
     )
+  )
   
-    if (isLoading) return 'Loading...';
-    if (error) return `An error has occurred: ${error.message}`;
+  if (isLoading) return 'Loading...';
+  if (error) return `An error has occurred: ${error.message}`;
 
-    const buildSHA = data["0"]["sha"].toString().slice(0,7);
+  const buildSHA = data["0"]["sha"].toString().slice(0,7);
   
-    return (
-        <p class="footer">
-          &copy; {new Date().getFullYear()} <a href="https://www.womble.xyz" target="_blank">wombat24455</a> - build {buildSHA}
-        </p>
-    )
-  }
+  return (
+    <p class="footer">
+      &copy; {new Date().getFullYear()} <a href="https://www.womble.xyz" target="_blank">wombat24455</a> - build {buildSHA}
+    </p>
+  )
+}

@@ -10,7 +10,6 @@ import { Router } from "preact-router"
 
 import './app.css'
 
-
 export function App() {
   return (
     <>

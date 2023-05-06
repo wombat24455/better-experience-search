@@ -17,7 +17,7 @@ function NavbarContent() {
                 <li><a href="../all">All Experiences</a></li>
                 <li><a href="../about">About</a></li>
             </ul>
-      </div>
+        </div>
     )
-  }
+}
   
