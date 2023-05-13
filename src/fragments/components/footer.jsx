@@ -15,7 +15,7 @@ export function Footer() {
 
 function FooterContent() {
   const { isLoading, error, data } = useQuery('userData', () =>
-    fetch(`https://api.github.com/repos/wombat24455/MikebotDiscordBot/commits`).then(res => /* Replace MikebotDiscordBot with better-experience-search */
+    fetch(`https://api.github.com/repos/wombat24455/better-experience-search/commits`).then(res =>
       res.json()
     )
   )
