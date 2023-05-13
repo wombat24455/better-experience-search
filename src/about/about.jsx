@@ -1,12 +1,18 @@
 import { render } from 'preact'
 import { Fragment } from 'preact';
 
+import { Navbar } from '../fragments/components/navbar';
+import { Footer } from '../fragments/components/footer';
+
+import '../app.css'
 import '../index.css'
 
 export function About() {
   return (
     <Fragment>
+      <Navbar />
       <AboutContent />
+      <Footer />
     </Fragment>
   )
 }
