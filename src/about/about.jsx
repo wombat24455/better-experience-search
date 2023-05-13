@@ -1,6 +1,8 @@
 import { render } from 'preact'
 import { Fragment } from 'preact';
 
+import '../index.css'
+
 export function About() {
   return (
     <Fragment>
