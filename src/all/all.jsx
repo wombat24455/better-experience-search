@@ -1,20 +1,22 @@
+import { render } from 'preact'
 import { Fragment } from 'preact';
 
-export function Discover() {
+export function All() {
   return (
     <Fragment>
-      <DiscoverContent />
+      <AllContent />
     </Fragment>
   )
 }
-  
-function DiscoverContent() {
+
+function AllContent() {
   return (
     <main>
-      <h1>Discover Experiences</h1>
+      <h1>All Experiences</h1>
       <p>searchbar goes here</p>
       <p>experiences go here</p>
     </main>
   )
 }
-  
+
+render(<All />, document.getElementById('app'))
