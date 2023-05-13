@@ -1,10 +1,16 @@
 import { Footer } from './fragments/components/footer'
 import { Navbar } from './fragments/components/navbar'
-
+/*
 import { Homepage } from './fragments/homepage'
 import { Discover } from './fragments/discover'
 import { About } from './fragments/about'
 import { All } from './fragments/all'
+*/
+
+import { Homepage } from './fragments/homepage'
+import { Discover } from './discover/discover'
+import { About } from './about/about'
+import { All } from './all/all'
 
 import { Router } from "preact-router"
 
