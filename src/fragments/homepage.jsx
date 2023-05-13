@@ -13,7 +13,7 @@ function HomepageContent() {
     <main>
       <h1>Better Experience Search</h1>
       <p>A (hopefully) better implementation of Roblox's experience search</p>
-      <p>The other pages do exist, I just haven't included them in the build script yet.</p>
+      <p>Stuff might break constantly, I generally fix it as soon as I find the issue.</p>
     </main>
   )
 }
